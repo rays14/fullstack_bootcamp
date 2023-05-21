@@ -1,0 +1,53 @@
+
+ol {
+  margin-left: -40px;
+  margin-top: -20px;
+  list-style-position: inside;
+}
+
+/* Write your CSS below, don't change the rules above. */
+h1 {
+  text-align:center;
+}
+h2 {
+  text-align:center;
+}
+.note{
+  color: red;
+  font-size: 20px;
+}
+
+li[value="2"] {
+  color: black;
+}
+
+#id-selector-demo {
+  color: green;
+}
+
+li[value="4"] {
+  color: blue;
+}
+
+li[value="5"] {
+  color: black;
+  text-align: center;
+}
+
+#MyList {
+  color: #B04759;
+}
+#list1 {
+  color: red;
+  background-color: plum;
+  font-weight: bolder;
+  ;
+}
+#list2 {
+  color:blue;
+  font-weight: bolder;
+  background-color: yellowgreen;
+}
+html {
+  background-color:aquamarine;
+}
