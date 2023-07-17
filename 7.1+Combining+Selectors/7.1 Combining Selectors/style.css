@@ -28,7 +28,7 @@ li.done {
 
 /*
 Does not work because chaining seems to only apply 
-to the same level and not multiple levels.
+to the same level and not multiple levels. Absolute match.
 div.list.done {
     color: seagreen;
 }
@@ -47,3 +47,7 @@ div.list.done {
     color: seagreen;
 }
 
+/* Combination of combination, Descendent and absolute-match */
+ul p.done {
+    font-size: 0.5rem;
+}
