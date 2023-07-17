@@ -1,0 +1,49 @@
+/* Write your code here: */
+h1, h2 {
+    color: blueviolet;
+}
+
+.box > .done {
+    color: firebrick;
+}
+
+.box li {
+    color: blue;
+}
+
+/* Works!! Multiple levels. But these is children and
+   not descendent. So the levels have to be in order
+   unlike descendents.
+   
+.box > .list > .done {
+    color: seagreen;
+}
+*/
+
+/* Works!! Same level only. Has to match at the same level.
+li.done {
+    color: seagreen;
+}
+*/
+
+/*
+Does not work because chaining seems to only apply 
+to the same level and not multiple levels.
+div.list.done {
+    color: seagreen;
+}
+*/
+
+/* Works!! Descendents at multiple levels .. this is interesting because
+   they don't have to be children .. they can skip a level .. as long
+   as they are descendents. */
+.box .list .done {
+    color: seagreen;
+}
+
+/* This makes the Do These Things today also seagreen because it is a 
+   descendent */
+.box .done {
+    color: seagreen;
+}
+
