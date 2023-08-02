@@ -1,0 +1,15 @@
+#hello {
+    display: inline-block;
+    height: 100px;
+    width: 150px;
+    background-color: yellow;
+    margin: 0;
+}
+
+#world {
+    display: inline-block;
+    height: 100px;
+    width: 150px;
+    background-color: lightblue;
+    margin: 0;
+}
