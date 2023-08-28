@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>CSS Positioning Exercise</title>
+  <style>
+    /* Write your code here */
+    .blue-box {
+      position: relative; /* Parent has to be relative */
+      background-color: blue;
+      height: 300px;
+      width: 500px;
+      top: 200px;
+      left: 200px;
+    }
+    .red-circle{
+      position: absolute; /* Child is absolute */
+      background-color: red;
+      height: 50px;
+      width: 50px;
+      border-radius: 50%;
+      top: 50px;
+      left: 50px;
+    }
+    .paddle-left {
+      position: absolute; /* Child has to be absolute */
+      background-color: white;
+      height: 50px;
+      width: 10px;
+      top: 100px;
+      left: 2px;
+    }
+    .paddle-right {
+      position: absolute; /* child has to be absolute */
+      background-color: white;
+      height: 50px;
+      width: 10px;
+      top: 100px;
+      right: 2px;
+    }
+    h1 {
+      font-family:Arial, Helvetica, sans-serif;
+      font-weight: 100;
+      color: blue; 
+    }
+    body {
+      background-color:beige;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Smaller Paddles</h1>
+  <hr></hr>
+  <div class="blue-box">
+    <div class="red-circle">
+    </div>
+    <div class="paddle-left"></div>
+    <div class="paddle-right"></div>
+  </div>
+</body>
+
+</html>
