@@ -11,7 +11,7 @@ body {
     /*flex: 1;*/
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 210px 210px 210px;
+    grid-template-rows: 100px 310px 210px;
 }
 
 .mylogo {
@@ -20,19 +20,28 @@ body {
 
 .myheader {
     grid-column: span 2;
+    margin-top: 10px;
 }
 
 .left {
     grid-column: span 1;
+    width: 70%;
 }
 
 .right {
     grid-column: span 1;
+    width: 70%;
+}
+
+.card-title {
+    padding-left: 10px;
+    
 }
 
 h1 {
     font-size: 5rem;
-    text-align: left;
+    margin-left: 50px;
+    margin-top: 0px;
 }
 
 .creative {
@@ -48,13 +57,13 @@ h1 {
 }
 
 img {
-    margin: 50px;
+    margin-left: 50px;
     margin-top: 0px;
 }
-/*
+
 footer {
     columns: span 2;
     text-align: right;
     color: midnightblue;
 }
-*/
+
