@@ -13,3 +13,18 @@
     background-color: lightblue;
     margin: 0;
 }
+
+.container {
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+}
+.one {
+    background-color: wheat;
+}
+.two {
+    background-color: wheat;
+}
+.three {
+    background-color: wheat;
+}

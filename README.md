@@ -7,3 +7,7 @@ ext install ms-vscode.live-server
 ext install esbenp.prettier-vscode
 ext install vscode-icons-team.vscode-icons
 ~~~
+
+## CSS Cheatsheet
+This is a CSS cheatsheet:
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
